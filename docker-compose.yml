@@ -75,7 +75,7 @@ services:
     
   customerapiservice:
     image: ghcr.io/janihakalayh/customerservice
-    container_name: customerapicontainer
+    container_name: customerapicontainer #vid strul, testa detta istället för localhost
     networks:
       - webshop-network
     environment:
